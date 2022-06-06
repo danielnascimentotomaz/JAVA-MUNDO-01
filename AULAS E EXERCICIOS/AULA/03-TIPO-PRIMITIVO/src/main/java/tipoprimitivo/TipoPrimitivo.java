@@ -9,10 +9,7 @@ public class TipoPrimitivo {
         int x;
        
         Scanner teclado = new Scanner(System.in);
-        
-  
-        
-        
+      
         
         float valor = 4.86f;
         
@@ -22,8 +19,12 @@ public class TipoPrimitivo {
         System.out.println();
         System.out.println("SUA NOTA É "+ valor);
         System.out.println("INFORME UM VALOR: ");
+      
         x = teclado.nextInt();
         //teclado.close();
+        int  v = 30;
+        String s = Integer.toString(v);
+        
         
         
         
@@ -49,9 +50,9 @@ boolean = casado = false
 
 => USANDO TYPECAST
 
-int idade = (int)= 3;
-float preco = (float) = 3.56;
-char letra = (char) = 'A';
+int idade = (int) 3;
+float preco = (float) 3.56;
+char letra = (char) 'A';
 boolean casado = (boolean) false ;
 
 
